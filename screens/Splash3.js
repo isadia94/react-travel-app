@@ -23,8 +23,8 @@ export default function Splash1() {
         <View
           style={{
             position: "absolute",
-            height: "40%",
-            width: "90%",
+            maxHeight: "fit-content",
+            width: "95%",
             left: "50%",
             transform: "translateX(-50%)",
             bottom: "10px",

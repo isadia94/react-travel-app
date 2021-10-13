@@ -23,8 +23,8 @@ export default function Splash1() {
         <View
           style={{
             position: "absolute",
-            height: "40%",
-            width: "90%",
+            maxHeight: "fit-content",
+            width: "95%",
             left: "50%",
             transform: "translateX(-50%)",
             bottom: "10px",
@@ -60,10 +60,11 @@ export default function Splash1() {
           </Text>
           <TouchableOpacity
             style={{
-              marginTop: "20px",
+              marginTop: "30px",
               backgroundColor: "green",
               padding: "10px",
               borderRadius: "30px",
+              marginBottom: "20px",
             }}
           >
             <Text
