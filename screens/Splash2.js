@@ -6,7 +6,7 @@ export default function Splash1() {
     <View>
       <View style={{ height: "100vh", width: "100%", position: "relative" }}>
         <Image
-          source={require("../assets/images/bg1.jpg")}
+          source={require("../assets/images/bg2.jpg")}
           style={{ width: "100%", height: "100%", resizeMode: "cover" }}
         />
         <View
@@ -17,7 +17,7 @@ export default function Splash1() {
             left: 0,
             top: 0,
             backgroundColor: "#23D920",
-            opacity: "0.3",
+            opacity: "0.2",
           }}
         ></View>
         <View
@@ -37,6 +37,7 @@ export default function Splash1() {
             style={{
               fontWeight: "700",
               color: "#166EF3",
+              zIndex: 1000,
             }}
           >
             WELCOME
@@ -52,7 +53,7 @@ export default function Splash1() {
               maxWidth: "350px",
             }}
           >
-            Great Adventure Awaits
+            Discover Comfortable Stays
           </Text>
           <Text style={{ marginTop: "15px" }}>
             Lorem Ipsum is simply dummy text of the printing and typesetting

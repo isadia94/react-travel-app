@@ -6,7 +6,7 @@ export default function Splash1() {
     <View>
       <View style={{ height: "100vh", width: "100%", position: "relative" }}>
         <Image
-          source={require("../assets/images/bg1.jpg")}
+          source={require("../assets/images/bg3.jpg")}
           style={{ width: "100%", height: "100%", resizeMode: "cover" }}
         />
         <View
@@ -17,7 +17,7 @@ export default function Splash1() {
             left: 0,
             top: 0,
             backgroundColor: "#23D920",
-            opacity: "0.3",
+            opacity: "0.2",
           }}
         ></View>
         <View
@@ -49,10 +49,10 @@ export default function Splash1() {
               zIndex: 1,
               fontSize: "35px",
 
-              maxWidth: "350px",
+              maxWidth: "250px",
             }}
           >
-            Great Adventure Awaits
+            Best Deals Today
           </Text>
           <Text style={{ marginTop: "15px" }}>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -69,7 +69,7 @@ export default function Splash1() {
             <Text
               style={{ textAlign: "center", color: "white", fontWeight: "500" }}
             >
-              Next
+              Get Started
             </Text>
           </TouchableOpacity>
         </View>
