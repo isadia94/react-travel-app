@@ -23,10 +23,12 @@ export default class Categories extends Component {
                 backgroundColor: "gray",
                 padding: "10px",
                 marginRight: "15px",
-                borderRadius: "12px",
+                borderRadius: "8px",
               }}
             >
-              <Text>{destination}</Text>
+              <Text style={{ fontFamily: "Poppins-medium" }}>
+                {destination}
+              </Text>
             </TouchableOpacity>
           ))}
         </ScrollView>

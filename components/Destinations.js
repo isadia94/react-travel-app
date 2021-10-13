@@ -60,7 +60,14 @@ export default function Destinations() {
                   paddingLeft: "20px",
                 }}
               >
-                <Text style={{ color: "white", fontSize: "22px", zIndex: 100 }}>
+                <Text
+                  style={{
+                    color: "white",
+                    fontSize: "22px",
+                    zIndex: 100,
+                    fontFamily: "Poppins-medium",
+                  }}
+                >
                   {tour.name}
                 </Text>
                 <View
@@ -75,7 +82,13 @@ export default function Destinations() {
                     size={18}
                     style={{ color: "white", marginRight: "5px" }}
                   />
-                  <Text style={{ color: "white", fontSize: "18px" }}>
+                  <Text
+                    style={{
+                      color: "white",
+                      fontSize: "18px",
+                      fontFamily: "Poppins-regular",
+                    }}
+                  >
                     {tour.location}
                   </Text>
                 </View>

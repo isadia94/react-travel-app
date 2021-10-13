@@ -14,6 +14,7 @@ export default function SearchBar() {
             borderRadius: "20px",
             fontWeight: "bold",
             marginTop: "7px",
+            fontFamily: "Poppins-thin",
           },
           textInputContainer: {
             backgroundColor: "#eee",
@@ -31,20 +32,15 @@ export default function SearchBar() {
         renderRightButton={() => (
           <View
             style={{
-              flexDirection: "row",
               marginRight: "10px",
+              marginLeft: "5px",
               backgroundColor: "white",
-              padding: "9px",
-              borderRadius: "30px",
+              padding: "3px",
+              borderRadius: "100%",
               alignItems: "center",
             }}
           >
-            <AntDesign
-              name="clockcircle"
-              size={11}
-              style={{ marginRight: "6px" }}
-            />
-            <Text>Search</Text>
+            <Ionicons name="search" size={24} />
           </View>
         )}
       />
